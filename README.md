@@ -1,27 +1,8 @@
-# PHSX815 Spring 2021 Week 5
+# PHSX815 Spring 2023 Week 5
 
-## Rejection Sampling
+## Ronte Carlo Integration.
 
-This repository contains several types of programs:
+Awwww yeahhh baby! Do you like spending a lot of time at smokey lounges and throwing darts? Are you also a sleep deprived mathematician who just can't figure out how to analytically integrate that crazy function? No need. Now we can solve both of your problems with one technique: Monte Carlo Integration. 
 
-- `CalculatePi.x` [C++] 
-- `GaussRandom.x` [C++]
+Let's head over to the 'Python' Folder and see what I'm talking about. 
 
-and corresponding python versions in `python` directory
-
-### Requirements
-
-In order to compile (by typing `make`) and run the C++ examples, you
-need the ROOT package installed (for visualization):
-- [ROOT](https://root.cern/) (C++)
-
-The python scripts require the following libraries: `numpy` and `matplotlib`
-
-### Usage
-
-All of the executables can be called from the
-command line with the `-h` or `--help` flag, which will print the options
-
-The python scripts can be run with the following options
-- `python python/CalculatePi.py -Nsample [# samples]`
-- `python python/GaussRandom.py -Nsample [# samples] -range [Xmax] --log --expo`
